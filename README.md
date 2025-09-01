@@ -122,6 +122,15 @@ If you use this toolkit in your research, please cite:
   publisher    = {Hugging Face}
 }
 
+@article{CAO2024,
+  author = "Bin CAO and Tongyi ZHANG",
+  title = "{WPEM manual}",
+  year = "2024",
+  month = "12",
+  url = "https://figshare.com/articles/dataset/WPEM_manual/28078985",
+  doi = "10.6084/m9.figshare.28078985.v3"
+}
+
 @patent{zhang2025em_xrd,
   author       = {Tong-Yi Zhang and Bin Cao and Zhenjie Feng and Qiling Xiao and Zihan Wang and Qian Zhang and Jiahao Wang},
   title        = {A Full Spectrum Line Fitting Method for Powder X-ray Diffraction Patterns Based on Statistical Modeling and Expectation-Maximization Algorithm},
