@@ -17,7 +17,7 @@
 [View package usage statistics / download counts](https://www.pepy.tech/projects/PyXplore)
 ---
 
-## 📦 Module Overview
+## Module Overview
 
 ```text
 PyWPEM/
@@ -96,19 +96,19 @@ PyWPEM/
 
 ---
 
-## 📊 Tables & Figures
+## Tables & Figures
 
 <p align="center">
-  <img src="https://github.com/Bin-Cao/PyWPEM/assets/86995074/4a41f979-ff0c-48d7-8830-d7638811aad2" alt="WPEM Table 1" width="650">
+<img width="958" height="409" alt="Screenshot 2026-01-30 at 17 32 30" src="https://github.com/user-attachments/assets/da5bd320-3651-4223-b862-06fb5ce1f96a" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/Bin-Cao/PyWPEM/assets/86995074/a04b60fd-f9b2-4b2d-bc1a-c8227d9dc811" alt="WPEM Table 2" width="650">
+<img width="1508" height="848" alt="Screenshot 2026-01-30 at 17 32 25" src="https://github.com/user-attachments/assets/50b1aacc-6a4f-4b58-95fb-a4094da60055" />
 </p>
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you use this toolkit in your research, please cite:
 
@@ -122,24 +122,6 @@ If you use this toolkit in your research, please cite:
   publisher    = {Hugging Face}
 }
 
-@article{CAO2024,
-  author = "Bin CAO and Tongyi ZHANG",
-  title = "{WPEM manual}",
-  year = "2024",
-  month = "12",
-  url = "https://figshare.com/articles/dataset/WPEM_manual/28078985",
-  doi = "10.6084/m9.figshare.28078985.v3"
-}
-
-@patent{zhang2025em_xrd,
-  author       = {Tong-Yi Zhang and Bin Cao and Zhenjie Feng and Qiling Xiao and Zihan Wang and Qian Zhang and Jiahao Wang},
-  title        = {A Full Spectrum Line Fitting Method for Powder X-ray Diffraction Patterns Based on Statistical Modeling and Expectation-Maximization Algorithm},
-  type         = {Patent},
-  number       = {ZL202210408314.X},
-  national     = {CN},
-  year         = {2025},
-  note         = {Authorization No.: CN 114972185 B, Authorized on April 11, 2025},
-}
 ```
 # Table of crystal systems
 
