@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  [![PyPI Downloads](https://static.pepy.tech/personalized-badge/pyxplore?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/pyxplore) <strong>Python Toolkit for X-ray Diffraction Simulation, Analysis, and AI-driven Structure Refinement</strong>
+  <strong>Python Toolkit for X-ray Diffraction Simulation, Analysis, and AI-driven Structure Refinement</strong>
 </p>
 
 <p align="center">
@@ -14,6 +14,8 @@
   <a href="https://arxiv.org/abs/2602.16372v1">Paper (arXiv)</a> ·
   <a href="https://www.pepy.tech/projects/PyXplore">Download Statistics</a>
 </p>
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/pyxplore?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/pyxplore) 
+
 
 <p align="center">
   <img width="600" src="https://github.com/user-attachments/assets/e37ee8c4-8bdd-4de0-b27e-2ce7270a8a07" />
