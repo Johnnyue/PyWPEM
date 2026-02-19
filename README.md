@@ -1,5 +1,5 @@
 
-
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/pyxplore?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/pyxplore) 
 
 <p align="center">
   <img src="https://github.com/Bin-Cao/TCGPR/assets/86995074/28f69830-4ece-43b3-a887-e78fdb25bcab" width="140" alt="PyWPEM Logo"/>
@@ -14,7 +14,7 @@
   <a href="https://arxiv.org/abs/2602.16372v1">Paper (arXiv)</a> ·
   <a href="https://www.pepy.tech/projects/PyXplore">Download Statistics</a>
 </p>
-[![PyPI Downloads](https://static.pepy.tech/personalized-badge/pyxplore?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/pyxplore) 
+
 
 
 <p align="center">
