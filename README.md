@@ -98,7 +98,7 @@ The design follows a **physics-consistent, modular architecture**, enabling inde
 ## Tables & Figures
 
 <p align="center">
-  <img width="400" src="https://github.com/user-attachments/assets/da5bd320-3651-4223-b862-06fb5ce1f96a" />
+  <img width="450" src="https://github.com/user-attachments/assets/da5bd320-3651-4223-b862-06fb5ce1f96a" />
 </p>
 
 <p align="center">
