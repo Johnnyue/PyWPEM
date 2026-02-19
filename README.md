@@ -1,12 +1,12 @@
 
-[![PyPI Downloads](https://static.pepy.tech/personalized-badge/pyxplore?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/pyxplore) 
 
 <p align="center">
   <img src="https://github.com/Bin-Cao/TCGPR/assets/86995074/28f69830-4ece-43b3-a887-e78fdb25bcab" width="140" alt="PyWPEM Logo"/>
 </p>
 
 <p align="center">
-  <strong>Python Toolkit for X-ray Diffraction Simulation, Analysis, and AI-driven Structure Refinement</strong>
+  <strong>Python Toolkit for X-ray Diffraction Simulation, Analysis, and AI-driven Structure Refinement</strong> 
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/pyxplore?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/pyxplore) 
 </p>
 
 <p align="center">
