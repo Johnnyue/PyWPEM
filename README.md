@@ -126,26 +126,6 @@ If you use **PyWPEM** in your research, please cite:
 }
 ```
 
----
-
-## Maintainer
-
-<table>
-  <tr>
-    <td width="150" align="center">
-      <img src="https://github.com/user-attachments/assets/7e77bd5a-42d6-45db-b8e6-2c82cac81b9d" width="130" style="border-radius: 50%;" />
-    </td>
-    <td>
-      <strong>Bin Cao</strong><br>
-      PhD Candidate<br>
-      Hong Kong University of Science and Technology (Guangzhou)<br><br>
-      Research Area: AI for Science · Intelligent Crystal Structure Analysis<br><br>
-      Email: <a href="mailto:bcao686@connect.hkust-gz.edu.cn">bcao686@connect.hkust-gz.edu.cn</a><br>
-      Homepage: <a href="https://www.caobin.asia/">https://www.caobin.asia/</a>
-    </td>
-  </tr>
-</table>
-
 
 
 ---
