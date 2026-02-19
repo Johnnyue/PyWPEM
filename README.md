@@ -1,148 +1,163 @@
 
-<h1 align="center">
-  <a href=""><img src="https://github.com/Bin-Cao/TCGPR/assets/86995074/28f69830-4ece-43b3-a887-e78fdb25bcab" alt="WPEM" width="150"></a>
-  <br>
-  <b>PyWPEM</b>
-  <br>
-</h1>
+# PyWPEM
 
 <p align="center">
-  Python Toolkit for XRD Simulation, Analysis, and Refinement.
+  <img src="https://github.com/Bin-Cao/TCGPR/assets/86995074/28f69830-4ece-43b3-a887-e78fdb25bcab" width="140" alt="PyWPEM Logo"/>
 </p>
 
 <p align="center">
-  <a href="https://pyxplore.netlify.app/">Documentation</a> | <a href="#">Paper (Coming Soon)</a>
+  <strong>Python Toolkit for X-ray Diffraction Simulation, Analysis, and AI-driven Structure Refinement</strong>
 </p>
 
-[View package usage statistics / download counts](https://www.pepy.tech/projects/PyXplore)
+<p align="center">
+  <a href="https://pyxplore.netlify.app/">Documentation</a> ·
+  <a href="https://arxiv.org/abs/2602.16372v1">Paper (arXiv)</a> ·
+  <a href="https://www.pepy.tech/projects/PyXplore">Download Statistics</a>
+</p>
+
 ---
 
-## Module Overview
+## Overview
+
+**PyWPEM** is a modular Python framework for **X-ray diffraction (XRD) simulation, decomposition, quantitative analysis, and AI-assisted structure refinement**.
+
+It integrates:
+
+* Physics-based diffraction modeling
+* EM-based Bragg optimization
+* Structure graph construction
+* Extinction and Wyckoff analysis
+* Amorphous phase quantification
+* AI-driven structural refinement
+
+The toolkit is designed for reproducible scientific workflows in materials characterization and AI for Science research.
+
+---
+
+## Key Features
+
+* **XRD Simulation**
+  Accurate diffraction pattern generation from crystallographic information.
+
+* **Peak Decomposition & Quantitative Analysis**
+  WPEM-based decomposition and volume fraction determination.
+
+* **Bragg Law Optimization (EM Framework)**
+  Expectation-Maximization-based parameter solving.
+
+* **Extinction & Wyckoff Handling**
+  Symmetry-aware preprocessing and structural filtering.
+
+* **Graph-Based Structure Representation**
+  Crystal graph construction for downstream machine learning tasks.
+
+* **Amorphous Structure Analysis**
+  RDF-based quantitative evaluation.
+
+* **Multi-modal Extension**
+  Integrated modules for XAS and XPS analysis.
+
+---
+
+## Architecture Overview
 
 ```text
 PyWPEM/
-├── __init__.py
 ├── WPEM.py
-│
-├── Amorphous/
-│   ├── fitting/
-│   │   ├── __init__.py
-│   │   └── AmorphousFitting.py
-│   └── QuantitativeCalculation/
-│       ├── __init__.py
-│       └── AmorphousRDF.py
-│
-├── Background/
-│   ├── __init__.py
-│   └── BacDeduct.py
-│
-├── DecomposePlot/
-│   ├── __init__.py
-│   └── plot.py
-│
-├── EMBraggOpt/
-│   ├── __init__.py
-│   ├── EMBraggSolver.py
-│   ├── BraggLawDerivation.py
-│   └── WPEMFuns/
-│       ├── __init__.py
-│       └── SolverFuns.py
-│
-├── Extinction/
-│   ├── __init__.py
-│   ├── CifReader.py
-│   ├── XRDpre.py
-│   ├── wyckoff/
-│   │   ├── __init__.py
-│   │   └── wyckoff_dict.py
-│   └── m3gnet/
-│
-├── GraphStructure/
-│   ├── __init__.py
-│   └── graph.py
-│
-├── Plot/
-│   ├── __init__.py
-│   └── UnitCell.py
-│
-├── Refinement/
-│   ├── __init__.py
-│   └── VolumeFractionDertermination.py
-│
-├── StructureOpt/
-│   ├── __init__.py
-│   └── SiteOpt.py
-│
 ├── XRDSimulation/
-│   ├── __init__.py
-│   ├── Simulation.py
-│   └── DiffractionGrometry/
-│       ├── __init__.py
-│       └── atom.py
-│
+├── EMBraggOpt/
+├── Refinement/
+├── StructureOpt/
+├── GraphStructure/
+├── Extinction/
+├── Amorphous/
+├── Background/
+├── Plot/
+├── DecomposePlot/
 ├── WPEMXAS/
-│   ├── __init__.py
-│   ├── EXAFS.py
-│   └── fftdemo.ipynb
-│
 ├── WPEMXPS/
-│   ├── __init__.py
-│   └── XPSEM.py
-│
 └── refs/
-    ├── International_Union_of_Crystallography.pdf
-    └── WPEM_Manual.pdf
 ```
+
+The design follows a **physics-consistent, modular architecture**, enabling independent or pipeline-based execution.
 
 ---
 
 ## Tables & Figures
 
 <p align="center">
-<img width="958" height="409" alt="Screenshot 2026-01-30 at 17 32 30" src="https://github.com/user-attachments/assets/da5bd320-3651-4223-b862-06fb5ce1f96a" />
+  <img width="600" src="https://github.com/user-attachments/assets/da5bd320-3651-4223-b862-06fb5ce1f96a" />
 </p>
 
 <p align="center">
-<img width="1508" height="848" alt="Screenshot 2026-01-30 at 17 32 25" src="https://github.com/user-attachments/assets/50b1aacc-6a4f-4b58-95fb-a4094da60055" />
+  <img width="600" src="https://github.com/user-attachments/assets/50b1aacc-6a4f-4b58-95fb-a4094da60055" />
 </p>
 
 ---
 
-## Citation
+## Scientific Reference
 
-If you use this toolkit in your research, please cite:
+If you use **PyWPEM** in your research, please cite:
 
 ```bibtex
-@misc{cao2025pyxplore,
-  author       = {Bin Cao and Tong-Yi Zhang},
-  title        = {PyXplore (Revision 56c956f)},
-  year         = {2025},
-  url          = {https://huggingface.co/datasets/caobin/PyXplore},
-  doi          = {10.57967/hf/6055},
-  publisher    = {Hugging Face}
+@article{cao2026wpem,
+  title={AI-Driven Structure Refinement of X-ray Diffraction},
+  author={Bin Cao, Qian Zhang, Zhenjie Feng, Taolue Zhang, Jiaqiang Huang, Lu-Tao Weng, Tong-Yi Zhang},
+  journal={arXiv preprint},
+  year={2026},
+  url={https://arxiv.org/abs/2602.16372v1}
 }
-
 ```
-# Table of crystal systems
 
-<img width="828" height="795" alt="Screenshot 2025-09-08 at 17 57 03" src="https://github.com/user-attachments/assets/8849335b-e8f2-45f8-8f61-83dec84a30aa" />
+---
+
+## Maintainer
+
+<table>
+  <tr>
+    <td width="150" align="center">
+      <img src="https://github.com/user-attachments/assets/7e77bd5a-42d6-45db-b8e6-2c82cac81b9d" width="130" style="border-radius: 50%;" />
+    </td>
+    <td>
+      <strong>Bin Cao</strong><br>
+      PhD Candidate<br>
+      Hong Kong University of Science and Technology (Guangzhou)<br><br>
+      Research Area: AI for Science · Intelligent Crystal Structure Analysis<br><br>
+      Email: <a href="mailto:bcao686@connect.hkust-gz.edu.cn">bcao686@connect.hkust-gz.edu.cn</a><br>
+      Homepage: <a href="https://www.caobin.asia/">https://www.caobin.asia/</a>
+    </td>
+  </tr>
+</table>
+
 
 
 ---
 
-<table>
-  <tr>
-    <td width="160" align="center" valign="top">
-      <img src="https://github.com/user-attachments/assets/7e77bd5a-42d6-45db-b8e6-2c82cac81b9d" width="140" style="border-radius: 50%;"/>
-    </td>
-    <td valign="top">
-      <b>For any inquiries or assistance, feel free to contact Mr. CAO Bin at:</b><br>
-      📧 Email: <a href="mailto:bcao686@connect.hkust-gz.edu.cn">bcao686@connect.hkust-gz.edu.cn</a><br><br>
-      Cao Bin is a PhD candidate at the <b>Hong Kong University of Science and Technology (Guangzhou)</b>, 
-      under the supervision of Professor <a href="https://gbaaa.org.hk/en-us/article/67">Zhang Tong-Yi</a>. His research focuses on 
-      <b>AI for science</b>, especially intelligent crystal-structure analysis and discovery. 
-      Learn more about his work on his 
-      <a href="https://www.caobin.asia/">homepage</a>.
-    </td>
-  </tr>
-</table>
+## Contributing
+
+We welcome contributions from the community.
+
+* Report bugs via Issues
+* Propose features
+* Submit pull requests
+* Contact for academic collaboration
+
+Please ensure code readability, documentation clarity, and scientific correctness before submission.
+
+---
+
+## License
+
+This project is released under the MIT License.
+
+Free for academic and commercial use.
+Please cite related publications when used in scientific research.
+
+---
+
+## Contributors
+
+[![Contributors](https://contrib.rocks/image?repo=Bin-Cao/PyWPEM\&v=6)](https://github.com/Bin-Cao/PyWPEM/graphs/contributors)
+
+
+
