@@ -15,6 +15,13 @@
   <a href="https://www.pepy.tech/projects/PyXplore">Download Statistics</a>
 </p>
 
+<p align="center">
+  <img width="600" src="https://github.com/user-attachments/assets/e37ee8c4-8bdd-4de0-b27e-2ce7270a8a07" />
+</p>
+
+Other tools include [XQueryer](https://github.com/Bin-Cao/XQueryer) for initial structure inference and [PRDNet](https://github.com/Bin-Cao/PRDNet) for crystal property prediction.
+
+ 
 ---
 
 ## Overview
