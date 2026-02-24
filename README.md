@@ -1,23 +1,36 @@
 
 
-
 <p align="center">
   <img src="https://github.com/Bin-Cao/TCGPR/assets/86995074/28f69830-4ece-43b3-a887-e78fdb25bcab" width="140" alt="PyWPEM Logo"/>
 </p>
 
 <p align="center">
-  <strong>Python Toolkit for X-ray Diffraction Simulation, Analysis, and AI-driven Structure Refinement</strong>
+  <strong>Python Toolkit for X-ray Diffraction Simulation, Analysis, and AI-driven Structure Refinement</strong> 
+
 </p>
 
 <p align="center">
   <a href="https://pyxplore.netlify.app/">Documentation</a> ·
   <a href="https://arxiv.org/abs/2602.16372v1">Paper (arXiv)</a> ·
+  <a href="https://www.researchgate.net/publication/400962382_Supplementary_Information_for_AI-Driven_Structure_Refinement_of_X-ray_Diffraction?_sg%5B0%5D=Dtl5qCZhJGfQkbUlv7_PX1Kx7TwdxuOHNLZVyFl1KGrHUSRNKl2vANa2VizCBgzhvFZHOprN-9U2OY37DKVt7bfexdXMbmSSl2dV9rdY.wb_SKqOPT-AERbwQd_WLh7pYYIbpMj0u3f0wWIKra43GjGnKbuLqobFTgQ1YfutJIXWN8RGFN5y9oCoEcEyeoQ&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImxvZ2luIiwicGFnZSI6InByb2ZpbGUiLCJwcmV2aW91c1BhZ2UiOiJwcm9maWxlIiwicG9zaXRpb24iOiJwYWdlQ29udGVudCJ9fQ">Supplementary Information</a> ·
   <a href="https://www.pepy.tech/projects/PyXplore">Download Statistics</a>
 </p>
 
+
+
+
+
+
+<p align="center">
+  <img width="600" src="https://github.com/user-attachments/assets/e37ee8c4-8bdd-4de0-b27e-2ce7270a8a07" />
+</p>
+
+Other tools include [XQueryer](https://github.com/Bin-Cao/XQueryer) for initial structure inference and [PRDNet](https://github.com/Bin-Cao/PRDNet) for crystal property prediction.
+
+ 
 ---
 
-## Overview
+## Overview [![PyPI Downloads](https://static.pepy.tech/personalized-badge/pyxplore?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/pyxplore)
 
 **PyWPEM** is a modular Python framework for **X-ray diffraction (XRD) simulation, decomposition, quantitative analysis, and AI-assisted structure refinement**.
 
@@ -86,11 +99,11 @@ The design follows a **physics-consistent, modular architecture**, enabling inde
 ## Tables & Figures
 
 <p align="center">
-  <img width="600" src="https://github.com/user-attachments/assets/da5bd320-3651-4223-b862-06fb5ce1f96a" />
+  <img width="450" src="https://github.com/user-attachments/assets/da5bd320-3651-4223-b862-06fb5ce1f96a" />
 </p>
 
 <p align="center">
-  <img width="600" src="https://github.com/user-attachments/assets/50b1aacc-6a4f-4b58-95fb-a4094da60055" />
+  <img width="700" src="https://github.com/user-attachments/assets/50b1aacc-6a4f-4b58-95fb-a4094da60055" />
 </p>
 
 ---
