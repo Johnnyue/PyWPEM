@@ -162,11 +162,4 @@ This project is released under the MIT License.
 Free for academic and commercial use.
 Please cite related publications when used in scientific research.
 
----
-
-## Contributors
-
-[![Contributors](https://contrib.rocks/image?repo=Bin-Cao/PyWPEM\&v=6)](https://github.com/Bin-Cao/PyWPEM/graphs/contributors)
-
-
 
