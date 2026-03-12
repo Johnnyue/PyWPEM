@@ -45,6 +45,21 @@ It integrates:
 
 The toolkit is designed for reproducible scientific workflows in materials characterization and AI for Science research.
 
+
+
+Install from PyPI:
+
+```bash
+pip install PyXplore
+```
+
+Upgrade to the latest version:
+
+```bash
+pip install --upgrade PyXplore
+```
+
+
 ---
 
 ## Key Features
