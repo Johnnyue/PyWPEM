@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  <a href="https://bin-cao.github.io/PyWPEM/">Project Homepage</a> ·  
   <a href="https://pyxplore.netlify.app/">Algorithm Documentation</a> ·
   <a href="https://arxiv.org/abs/2602.16372">Paper (arXiv)</a> ·
   <a href="https://www.researchgate.net/publication/400962382_Supplementary_Information_for_AI-Driven_Structure_Refinement_of_X-ray_Diffraction?_sg%5B0%5D=Dtl5qCZhJGfQkbUlv7_PX1Kx7TwdxuOHNLZVyFl1KGrHUSRNKl2vANa2VizCBgzhvFZHOprN-9U2OY37DKVt7bfexdXMbmSSl2dV9rdY.wb_SKqOPT-AERbwQd_WLh7pYYIbpMj0u3f0wWIKra43GjGnKbuLqobFTgQ1YfutJIXWN8RGFN5y9oCoEcEyeoQ&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImxvZ2luIiwicGFnZSI6InByb2ZpbGUiLCJwcmV2aW91c1BhZ2UiOiJwcm9maWxlIiwicG9zaXRpb24iOiJwYWdlQ29udGVudCJ9fQ">Supplementary Information</a> ·
