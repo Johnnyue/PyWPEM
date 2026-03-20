@@ -37,9 +37,10 @@ logo = '''
 now = datetime.datetime.now()
 formatted_date_time = now.strftime('%Y-%m-%d %H:%M:%S')
 print(logo)
-print('A Diffraction Refinement Software : WPEM')
-print('Bin Cao, Advanced Materials Thrust, Hong Kong University of Science and Technology (Guangzhou)')
-print('URL : https://github.com/Bin-Cao/WPEM')
+print('A Diffraction Refinement Software')
+print('Bin Cao, HKUST(Guangzhou), https://bin-cao.github.io')
+print('Paper : https://arxiv.org/abs/2602.16372')
+print('URL : https://github.com/Bin-Cao/PyWPEM')
 print('Executed on :',formatted_date_time, ' | Have a great day.')
 print('='*100)
 
