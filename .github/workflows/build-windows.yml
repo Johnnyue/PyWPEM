@@ -35,4 +35,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: PyXplore-windows-dist
-          path: dist/PyXplore/**
+          path: dist/**
