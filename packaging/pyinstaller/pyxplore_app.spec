@@ -1,11 +1,24 @@
 # -*- mode: python ; coding: utf-8 -*-
 from pathlib import Path
 from PyInstaller.utils.hooks import collect_submodules
+import os
 
 block_cipher = None
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(os.getcwd()).resolve()
+
 hiddenimports = []
-for pkg in ['src', 'src.Background', 'src.EMBraggOpt', 'src.Amorphous', 'src.XRDSimulation', 'src.Extinction', 'src.StructureOpt', 'src.WPEMXPS', 'src.WPEMXAS', 'src.GraphStructure']:
+for pkg in [
+    'src',
+    'src.Background',
+    'src.EMBraggOpt',
+    'src.Amorphous',
+    'src.XRDSimulation',
+    'src.Extinction',
+    'src.StructureOpt',
+    'src.WPEMXPS',
+    'src.WPEMXAS',
+    'src.GraphStructure',
+]:
     try:
         hiddenimports += collect_submodules(pkg)
     except Exception:
@@ -32,7 +45,9 @@ a = Analysis(
     cipher=block_cipher,
     noarchive=False,
 )
+
 pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
+
 exe = EXE(
     pyz,
     a.scripts,
